@@ -100,7 +100,7 @@ public class bot_Twitter {
                     } catch (IOException ioException) {
                         ioException.printStackTrace();
                     }
-                    ffw.close(); // fermer le fichier à la fin des traitements
+                    ffw.close(); // Close file
                 } catch (Exception ignored) {
                 }
                 if (statuses.size() == size)
